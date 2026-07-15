@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Dict, List, Any
 
 # LangChain imports
-from langchain.chains import LLMChain
+from langchain_classic.chains import LLMChain
 
 from .base_agent import BaseAgent
 from core.data_structures import RepoAnalysisData, CodeReviewResult
