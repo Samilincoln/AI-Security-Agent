@@ -1,4 +1,4 @@
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 CODE_REVIEW_PROMPT = PromptTemplate(
     input_variables=["languages", "file_structure", "code_samples", "endpoints"],
