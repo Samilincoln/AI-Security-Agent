@@ -5,7 +5,7 @@ import traceback
 
 # LangChain imports
 from config import SECURITY_ANALYSIS_PROMPT
-from langchain.chains import LLMChain
+from langchain_classic.chains import LLMChain
 from langchain_core.runnables import RunnableSequence
 
 from .base_agent import BaseAgent
